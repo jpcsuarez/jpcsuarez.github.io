@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Awards and Scholarships"
+title: ""
 permalink: /awards/
 author_profile: true
 redirect_from:
@@ -9,30 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
-2024
+Awards
 ======
-* Master's Thesis Award in Transportation Geography
+* Master's Thesis Award in Transportation Geography, 2024
   * American Association of Geographers
-
-2023
-======
-* Best Paper Award for 'Enlightening Asia-Specific Topics'
+* Best Paper Award for 'Enlightening Asia-Specific Topics', 2023
   * Eastern Asia Society for Transportation Studies
-* Graduate Students' Dean's Award
+* Graduate Students' Dean's Award, 2023
   * National Taiwan University, College of Engineering
-* Phi Tau Phi Scholastic Honor Society - Honorary Membership
+* Phi Tau Phi Scholastic Honor Society - Honorary Membership, 2023
   * Phi Tau Phi Scholastic Honor Society of the Republic of China
-* Academic Achievement Award
+* Academic Achievement Award, 2023
   * Ministry of Education, Taiwan
-
-2018
-======
-* TPLEX Award for Excellence in Transportation Engineering
+* TPLEX Award for Excellence in Transportation Engineering, 2018
   * University of the Philippines - Diliman, Institute of Civil Engineering
-
-2017
-======
-* Best Speaker/Best Presentation
+* Best Speaker/Best Presentation, 2017
   * Global Youth Leaders Travel and Learning Camp
 
 Scholarships
