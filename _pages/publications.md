@@ -38,13 +38,16 @@ redirect_from:
 <div class="pub-item" data-topic="SocialMedia" data-context="Qatar">
   <p><strong>Joshua Philip Suarez</strong>, Nikka Marie Sales & Adrian Rauchfleisch (2025). Soft disempowerment dynamics in the 2022 FIFA World Cup. <em>Humanities and Social Sciences Communications</em><br>
   <a href="https://doi.org/10.1057/s41599-025-06062-6">Link</a> |
-  <a href="/files/Suarez_HSSC.pdf">PDF</a></p>
+  <a href="/files/Suarez_HSSC.pdf">PDF</a></p> |
+  <a href="https://osf.io/jymuq">Code</a></p>
 </div>
 
 <div class="pub-item" data-topic="SocialMedia" data-context="Global">
   <p>Adrian Rauchfleisch, <strong>Joshua Philip Suarez</strong>, Nikka Marie Sales & Andreas Jungherr (2025). Winning and losing with Artificial Intelligence. <em>Telematics and Informatics</em><br>
   <a href="https://doi.org/10.1016/j.tele.2025.102344">Link</a> |
-  <a href="/files/Suarez_Tele.pdf">PDF</a></p>
+  <a href="/files/Suarez_Tele.pdf">PDF</a></p> |
+  <a href="https://osf.io/7rsv3">Code</a></p>
+
 </div>
 
 <div class="pub-item" data-topic="Transportation" data-context="Philippines">
