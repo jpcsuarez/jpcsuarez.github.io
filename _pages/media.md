@@ -1,5 +1,6 @@
 ---
-permalink: /
+layout: archive
+permalink: /media/
 title: ""
 author_profile: true
 redirect_from: 
