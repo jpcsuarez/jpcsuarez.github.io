@@ -19,7 +19,7 @@ Work experience
 * Research Assistant
   * National Taiwan University
   * Taipei, Taiwan
-  * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role; The Influence of Technology on the Coupling of Science, Media, and Policies
+  * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role;The Influence of Technology on the Coupling of Science, Media, and Policies
 
 * Traffic Engineer
   * CTI Engineering International Co. Ltd.
@@ -49,4 +49,4 @@ Leadership
 ======
 * President, University of the Philippines Association of Civil Engineering Students, 2017
 * Vice President for External Affairs, University of the Philippines Association of Civil Engineering Students, 2016
-* Vice President for External Affairs, Philippine Institute of Civil Engineers, Inc. - UP Diliman Student Chapter , 2015-2016
+* Vice President for External Affairs, Philippine Institute of Civil Engineers, Inc. - UP Diliman Student Chapter, 2015-2016
