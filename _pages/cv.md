@@ -19,7 +19,7 @@ Work experience
 * Research Assistant
   * National Taiwan University
   * Taipei, Taiwan
-  * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role;The Influence of Technology on the Coupling of Science, Media, and Policies
+  * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role; The Influence of Technology on the Coupling of Science, Media, and Policies
 
 * Traffic Engineer
   * CTI Engineering International Co. Ltd.
