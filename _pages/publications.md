@@ -20,6 +20,7 @@ redirect_from:
 <h2>Context</h2>
 
 <div id="filters-context">
+  <button onclick="filterSelection('all')">All</button>
   <button onclick="filterSelection('Taiwan')">Taiwan</button>
   <button onclick="filterSelection('Qatar')">Qatar</button>
   <button onclick="filterSelection('Global')">Global</button>
