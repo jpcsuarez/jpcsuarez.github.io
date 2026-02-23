@@ -11,54 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Civil Engineering, National Taiwan University, 2023
+* B.S. in Civil Engineering, University of the Philippines - Diliman, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Research Assistant
+  * National Taiwan University
+  * Taipei, Taiwan
+  * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role; The Influence of Technology on the Coupling of Science, Media, and Policies
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Traffic Engineer
+  * CTI Engineering International Co. Ltd.
+  * Metro Manila, the Philippines
+  * Project: Data Collection Survey on Urban Infrastructure Development in Greater Cotabato City
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Technical Assistant
+  * CTI Engineering International Co. Ltd.
+  * Metro Manila, the Philippines
+  * Project: The Study of Master Plan on High Standard Highway Network Development in the Philippines - Phase II
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: R, Python, C, C++
+* Statistics and econometrics: Stata, SPSS, Limdep, R
+* Spatial analysis, visualization, and mapping: R, Python, QGIS
+* Optimization: Gurobi
 
-Publications
+Professional affiliations
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* International Communication Association, since 2024
+* American Association of Geographers, since 2023
+* Eastern Asia Society for Transportation Studies, since 2019
+* Transportation Science Society of the Philippines, since 2019
+
+Leadership
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* President, University of the Philippines Association of Civil Engineering Students, 2017
+* Vice President for External Affairs, University of the Philippines Association of Civil Engineering Students, 2016
+* Vice President for External Affairs, Philippine Institute of Civil Engineers, Inc. - UP Diliman Student Chapter , 2015-2016
