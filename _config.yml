@@ -24,7 +24,7 @@ repository               : "jpcsuarez/jpcsuarez.github.io"
 author:
   # Biographic information
   avatar           : "jpcsuarez.jpeg"
-  name             : "Joshua Philip Suarez"
+  name             : # Name
   pronouns         : # example: "she/her"  
   bio              : "Research assistant at National Taiwan University"
   location         : "Taipei, Taiwan"

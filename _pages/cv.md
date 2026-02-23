@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -49,4 +49,10 @@ Leadership
 ======
 * President, University of the Philippines Association of Civil Engineering Students, 2017
 * Vice President for External Affairs, University of the Philippines Association of Civil Engineering Students, 2016
-* Vice President for External Affairs, Philippine Institute of Civil Engineers, Inc. - UP Diliman Student Chapter, 2015-2016
+* Vice President for External Affairs, Philippine Institute of Civil Engineers, Inc. UP Diliman Student Chapter, 2015-2016
+
+Full CV
+======
+You may download the complete academic CV below:
+👉 [Download Full CV](/files/Suarez_CV.pdf)
+_Last updated: February 2026_
