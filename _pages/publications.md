@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Peer-reviewed journal articles"
 permalink: /publications/
 author_profile: true
 redirect_from:
