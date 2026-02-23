@@ -11,7 +11,7 @@ I am a research assistant in applied social sciences at National Taiwan Universi
 
 My primary research area is transportation. My work has been published in the _Journal of Transport Geography_ and _Telematics and Informatics_, among other outlets.
 
-I am also a licensed civil engineer and have worked for several years on transportation development projects in the Philippines.
+I am also a licensed civil engineer and have several years of consulting experience on transportation development projects in the Philippines.
 
 Research interests
 ======
