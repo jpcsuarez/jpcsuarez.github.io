@@ -54,5 +54,5 @@ Leadership
 Full CV
 ======
 You may download the complete academic CV below:
-👉 [Download Full CV](/files/Suarez_CV.pdf)
-_Last updated: February 2026_
+* [Download Full CV](/files/Suarez_CV.pdf)
+* _Last updated: February 2026_
