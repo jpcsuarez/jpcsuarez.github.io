@@ -48,3 +48,20 @@
 .pill-clear {
   border-style: dashed;
 }
+
+.pub-icons {
+  margin-top: 0.35rem;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.pub-icons a {
+  font-size: 1rem;
+  color: #6c757d;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.pub-icons a:hover {
+  color: #000;
+}
