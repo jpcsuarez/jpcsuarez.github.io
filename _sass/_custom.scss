@@ -86,3 +86,52 @@
 .oa-badge i {
   font-size: 0.885rem;
 }
+
+
+  /* dark mode */
+html[data-theme="dark"],
+body.dark,
+body.dark-theme {
+  /* Pills */
+  .pill {
+    border-color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .pill:hover {
+    border-color: rgba(255, 255, 255, 0.45);
+  }
+
+  .pill.is-active {
+    /* keep your blue look but make it pop on dark background */
+    background: #0B5FFF;
+    border-color: #0B5FFF;
+    color: #ffffff;
+  }
+
+  .pill-clear {
+    border-style: dashed;
+  }
+
+  /* Filter label + count */
+  .filter-label {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  #filterCount {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  /* Publication icons */
+  .pub-icons a {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .pub-icons a:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .pub-icons i {
+    color: inherit;
+  }
+}
