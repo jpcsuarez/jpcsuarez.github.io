@@ -17,18 +17,15 @@ Education
 Work experience
 ======
 * Research Assistant
-  * National Taiwan University
-  * Taipei, Taiwan
+  * National Taiwan University, Taipei, Taiwan
   * Projects: Global Perspectives on AI: Assessing Public Discourse, Opinion, and Big Tech’s Role; The Influence of Technology on the Coupling of Science, Media, and Policies
 
 * Traffic Engineer
-  * CTI Engineering International Co. Ltd.
-  * Metro Manila, the Philippines
+  * CTI Engineering International Co. Ltd., Metro Manila, the Philippines
   * Project: Data Collection Survey on Urban Infrastructure Development in Greater Cotabato City
 
 * Technical Assistant
-  * CTI Engineering International Co. Ltd.
-  * Metro Manila, the Philippines
+  * CTI Engineering International Co. Ltd., Metro Manila, the Philippines
   * Project: The Study of Master Plan on High Standard Highway Network Development in the Philippines - Phase II
   
 Skills
