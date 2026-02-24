@@ -20,10 +20,10 @@ author_profile: true
   <div class="filter-label">CONTEXT:</div>
   <div class="filter-group" data-filter-group="context">
     <button type="button" class="pill is-active" data-value="all">All</button>
-    <button type="button" class="pill" data-value="Taiwan">Taiwan</button>
-    <button type="button" class="pill" data-value="Qatar">Qatar</button>
     <button type="button" class="pill" data-value="Global">Global</button>
     <button type="button" class="pill" data-value="Philippines">Philippines</button>
+    <button type="button" class="pill" data-value="Qatar">Qatar</button>
+    <button type="button" class="pill" data-value="Taiwan">Taiwan</button>
   </div>
 </div>
 
