@@ -3,8 +3,6 @@ layout: archive
 title: ""
 permalink: /publications_draft/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
@@ -14,62 +12,54 @@ redirect_from:
 <div class="filter-row">
   <div class="filter-label">TOPIC:</div>
   <div class="filter-group" data-filter-group="topic">
-    <button class="pill is-active" data-value="all">All</button>
-    <button class="pill" data-value="Transportation">Transportation</button>
-    <button class="pill" data-value="Social Media and Social Science">Social Media & Social Science</button>
+    <button type="button" class="pill is-active" data-value="all">All</button>
+    <button type="button" class="pill" data-value="Transportation">Transportation</button>
+    <button type="button" class="pill" data-value="Social Media and Social Science">Social Media &amp; Social Science</button>
   </div>
 </div>
 
 <div class="filter-row">
   <div class="filter-label">CONTEXT:</div>
   <div class="filter-group" data-filter-group="context">
-    <button class="pill is-active" data-value="all">All</button>
-    <button class="pill" data-value="Taiwan">Taiwan</button>
-    <button class="pill" data-value="Qatar">Qatar</button>
-    <button class="pill" data-value="Global">Global</button>
-    <button class="pill" data-value="Philippines">Philippines</button>
+    <button type="button" class="pill is-active" data-value="all">All</button>
+    <button type="button" class="pill" data-value="Taiwan">Taiwan</button>
+    <button type="button" class="pill" data-value="Qatar">Qatar</button>
+    <button type="button" class="pill" data-value="Global">Global</button>
+    <button type="button" class="pill" data-value="Philippines">Philippines</button>
   </div>
 </div>
 
 <div class="filter-meta">
   <span id="filterCount"></span>
-  <button class="pill pill-clear" id="clearFilters" type="button">Clear</button>
+  <button type="button" class="pill pill-clear" id="clearFilters">Clear</button>
 </div>
 
 <hr>
 
 <div id="pubList">
 
-  <div class="pub-item"
-       data-topic="Transportation"
-       data-context="Taiwan">
+  <div class="pub-item" data-topic="Transportation" data-context="Taiwan">
     <p><strong>Joshua Philip Suarez</strong>, S.K. Jason Chang &amp; Jen-Jia Lin (2025). Exploring the nexus between transit-based job accessibility and labor market outcomes among marital immigrants. <em>Journal of Transport Geography</em><br>
       <a href="https://doi.org/10.1016/j.jtrangeo.2025.104358">Link</a> |
       <a href="/files/Suarez_JTRG.pdf">PDF</a>
     </p>
   </div>
 
-  <div class="pub-item"
-       data-topic="Social Media and Social Science"
-       data-context="Qatar">
+  <div class="pub-item" data-topic="Social Media and Social Science" data-context="Qatar">
     <p><strong>Joshua Philip Suarez</strong>, Nikka Marie Sales &amp; Adrian Rauchfleisch (2025). Soft disempowerment dynamics in the 2022 FIFA World Cup. <em>Humanities and Social Sciences Communications</em><br>
       <a href="https://doi.org/10.1057/s41599-025-06062-6">Link</a> |
       <a href="/files/Suarez_HSSC.pdf">PDF</a>
     </p>
   </div>
 
-  <div class="pub-item"
-       data-topic="Social Media and Social Science"
-       data-context="Global">
+  <div class="pub-item" data-topic="Social Media and Social Science" data-context="Global">
     <p>Adrian Rauchfleisch, <strong>Joshua Philip Suarez</strong>, Nikka Marie Sales &amp; Andreas Jungherr (2025). Winning and losing with Artificial Intelligence. <em>Telematics and Informatics</em><br>
       <a href="https://doi.org/10.1016/j.tele.2025.102344">Link</a> |
       <a href="/files/Suarez_Tele.pdf">PDF</a>
     </p>
   </div>
 
-  <div class="pub-item"
-       data-topic="Transportation"
-       data-context="Philippines">
+  <div class="pub-item" data-topic="Transportation" data-context="Philippines">
     <p><strong>Joshua Philip Suarez</strong>, Maria Jacinta Lagonera, Ryuichi Ueno &amp; Nashreen Sinarimbo (2022). Examining Road Freight Transport Costs: A Philippine Perspective. <em>Journal of the Eastern Asia Society for Transportation Studies</em><br>
       <a href="https://doi.org/10.11175/easts.14.159">Link</a> |
       <a href="/files/Suarez_JofEASTS.pdf">PDF</a>
@@ -103,7 +93,6 @@ redirect_from:
   }
 
   function matchesGroup(itemValue, selectedSet) {
-    // "all" means no restriction for that group
     if (selectedSet.has("all")) return true;
     return selectedSet.has(itemValue);
   }
@@ -114,10 +103,7 @@ redirect_from:
       const topic = normalize(item.dataset.topic);
       const context = normalize(item.dataset.context);
 
-      const ok =
-        matchesGroup(topic, state.topic) &&
-        matchesGroup(context, state.context);
-
+      const ok = matchesGroup(topic, state.topic) && matchesGroup(context, state.context);
       item.style.display = ok ? "" : "none";
       if (ok) shown += 1;
     });
@@ -127,23 +113,24 @@ redirect_from:
 
   groups.forEach(group => {
     const groupName = group.dataset.filterGroup;
+
     group.addEventListener("click", (e) => {
       const btn = e.target.closest("button.pill");
       if (!btn) return;
 
+      e.preventDefault();
+      e.stopPropagation();
+
       const value = normalize(btn.dataset.value);
 
-      // Clicking "all" resets the group
       if (value === "all") {
         resetGroup(groupName);
         applyFilters();
         return;
       }
 
-      // If any specific value is chosen, "all" should be removed
       if (state[groupName].has("all")) state[groupName].delete("all");
 
-      // Toggle selection
       if (state[groupName].has(value)) {
         state[groupName].delete(value);
         setActiveClass(btn, false);
@@ -152,11 +139,9 @@ redirect_from:
         setActiveClass(btn, true);
       }
 
-      // If user unselects everything, revert to "all"
       if (state[groupName].size === 0) {
         resetGroup(groupName);
       } else {
-        // keep "all" button visually off
         const allBtn = group.querySelector(`.pill[data-value="all"]`);
         if (allBtn) setActiveClass(allBtn, false);
       }
@@ -165,7 +150,8 @@ redirect_from:
     });
   });
 
-  clearBtn.addEventListener("click", () => {
+  clearBtn.addEventListener("click", (e) => {
+    e.preventDefault();
     resetGroup("topic");
     resetGroup("context");
     applyFilters();
