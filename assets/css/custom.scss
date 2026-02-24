@@ -48,3 +48,13 @@
 .pill-clear {
   border-style: dashed;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+.masthead__menu-item--lg {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.2rem;
+}
