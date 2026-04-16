@@ -23,7 +23,7 @@ repository               : "jpcsuarez/jpcsuarez.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jpcsuarez.jpeg"
+  avatar           : "jpcsuarez.JPG"
   name             : # Name
   pronouns         : # example: "she/her"  
   bio              : "Research assistant at National Taiwan University"
