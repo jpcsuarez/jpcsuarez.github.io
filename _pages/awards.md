@@ -28,5 +28,6 @@ Awards
 
 Scholarships
 ======
+* Swiss Government Excellence Scholarship, 2026-
 * Ministry of Education Taiwan Scholarship, 2021-2023
 * Department of Science and Technology - Science Education Institute Scholarship, 2013-2018
